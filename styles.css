@@ -1,5 +1,137 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.maincontainer {
+    border: 2px solid blue;
+    width: 100%;
+    height: 500vh;
+    display: flex !important;
+ 
+}
+
+.navbarcontainer {
+    /* border: 2px solid blue; */
+    width: 23%;
+    height: 100vh;
+    background-color: rgb(244, 67, 54);
+    position: fixed;
+    border-radius: 2%;
+    
+}
+
+#header {
+    width: 100%;
+    height: 248px;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    padding: 95px 0 0 30px;
+     font-family: Poppins, sans-serif; 
+    cursor: pointer;
+}
+
+.linkscontainer {
+    width: 100%;
+    height: 369px;
+    margin-top: 10px;
+}
+
+#link {
+    text-decoration: none;
+    padding: 8px 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+}
+
+a:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#link:hover {
+    color: #000000;
+}
+
+.mainbox{
+    border: 3px solid black;
+    width: 100%;
+    width: 500vh;
+    display: flex;
+}
+.hidden{
+    width:23% ;
+}
+.homecontects{
+      width: 77%;
+}
+.heading{
+    height: 50vh;
+    width:  100%;
+}
+#title{
+    padding-top: 93px;
+    padding-left: 50px;
+    font-size: 67px;
+    font-weight: 600;
+     font-family:Poppins, sans-serif ; 
+}
+#subtitle{
+    padding-top: 20px;
+    padding-left:  50px;
+    color: rgb(244, 67, 54);
+    font-size: 48px;
+    font-weight: 700;
+     font-family:Poppins, sans-serif ; 
+}
+#line{
+    border: 5px solid rgb(255, 0, 0);
+    width: 6%;
+    margin-left: 50px;
+    margin-top: 25px;
+   border-radius:13% ;    
+}
+.imagecontainer{
+    width: 89%;
+    height: 140vh;
+    margin: 32px 80px 0 50px;
+    display: flex;
+   
+}
+.imgbox1{
+    width: 50%;
+    height: 145vh;
+}
+#img1{
+    width: 100% ;
+    /* height: 100%; */
+}
+#img2{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.imgbox2{
+    width: 50%;
+    height: 145vh;
+} 
+#img {
+    margin-left: 20px;
+    width: 100%;
+}
+#imgb{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100%;  
+}
+
+
+
+
+.Services{
+    border: 1px solid black;
 }
