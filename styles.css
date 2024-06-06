@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .maincontainer {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     height: 500vh;
     display: flex !important;
@@ -28,7 +29,7 @@
     font-weight: 300;
     color: white;
     padding: 95px 0 0 30px;
-    font-family: Poppins, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
 }
 
@@ -43,8 +44,8 @@
     padding: 8px 30px;
     color: #ffffff;
     font-size: 20px;
-    font-weight: 600;
-    font-family: Poppins, sans-serif;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a:hover {
@@ -54,10 +55,12 @@ a:hover {
 
 #link:hover {
     color: #000000;
+    background-color: #fff;
+    width: 90%;
 }
 
 .mainbox {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     width: 500vh;
     display: flex;
@@ -68,7 +71,7 @@ a:hover {
 }
 
 .homecontects {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 77%;
     height: 400vh;
 }
@@ -83,8 +86,9 @@ a:hover {
     padding-left: 50px;
     font-size: 67px;
     font-weight: 600;
-    font-family: Poppins, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 #subtitle {
     padding-top: 20px;
@@ -92,7 +96,7 @@ a:hover {
     color: rgb(244, 67, 54);
     font-size: 48px;
     font-weight: 700;
-    font-family: Poppins, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #line {
@@ -100,7 +104,7 @@ a:hover {
     width: 6%;
     margin-left: 50px;
     margin-top: 25px;
-    border-radius: 13%;
+    border-radius: 5px;
 }
 
 .imagecontainer {
@@ -178,7 +182,7 @@ a:hover {
 }
 
 .textbox {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     height: 130vh;
 }
@@ -189,20 +193,257 @@ a:hover {
     color: rgb(244, 67, 54);
     font-size: 48px;
     font-weight: 600;
-    font-family: Poppins, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #sub {
     padding-top: 25px;
     padding-left: 50px;
-    font-family: Poppins, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
 }
 
 #texts {
     padding-left: 50px;
-    font-family: Poppins, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 25px;
     font-size: 17px;
     font-weight: 400;
 }
+
+
+
+
+
+/* Content starting from the "Designers Images" */
+.MainContainerBox{
+    /* border: 5px solid black; */
+}
+
+/* "3 Photo cards Content" */
+.container{
+    /* border: 3px solid rgb(0, 219, 11); */
+    padding-bottom: 100px;
+}
+.container h2{
+    font-size: 15px;
+    margin-left: 4.5%;
+}
+.card{
+    /* border: 5px solid rgb(0, 255, 170); */
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card img{
+    width: 300px;
+    filter:saturate(20%);
+}
+.text{
+    width: 29%;
+    /* border:2px solid orange;     */
+    margin: 10px;
+    background-color: rgb(231, 231, 231);
+}
+.words{
+    margin: 10px;
+}
+.words h1{
+    font-size: 25px;
+    font-weight: normal;
+}
+.words h3{
+    color: grey;
+    font-weight: 60;
+}
+.words p{
+    color: rgb(65, 65, 65);
+    font-size: 17px;
+}
+
+
+
+
+
+/* "Packages Content and the 2 Columns" */
+.PackagesText{
+    /* border: 5px solid red; */
+    /* width: 95%; */
+    margin: 0px 40px 0px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.PackagesText h1{
+    color:  #f44336 !important;
+    font-size: 45px;
+}
+.PackagesText p{
+    font-size: 17px;
+}
+.PackagesText hr{
+    width: 6%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+}
+.PackagesColumn{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0px 40px 0px 40px;
+    padding-bottom: 90px;
+}
+
+
+/* "Column Box 1" */
+.BasicColumn{
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 49%;
+}
+.BasicColumn h1{
+    /* border: 1px solid black; */
+    color: white;
+    background-color: rgb(85, 85, 85);
+    display: flex;
+    justify-content: center;
+    padding: 30px 40px 30px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 100; 
+}
+.BasicColumn h2{
+    border: 1px solid rgb(196, 196, 196);
+        color: rgb(36, 36, 36);
+        background-color: rgb(236, 236, 236);
+        display: flex;
+        justify-content: center;
+        padding: 30px 40px 30px 40px;
+        font-size:100%;
+        font-weight: 100;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* "Column box 2" */
+.ProColumn{
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 49%;
+}
+.ProColumn h1{
+    /* border: 1px solid black; */
+    color: white;
+    background-color:  #f44336 !important;
+    display: flex;
+    justify-content: center;
+    padding: 30px 40px 30px 40px;
+    font-size: 25px;
+    font-weight: 100;
+}
+.ProColumn h2{
+    border: 1px solid rgb(196, 196, 196);
+    color: rgb(36, 36, 36);
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    padding: 30px 40px 30px 40px;
+    font-size:100%;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Dollar{
+    /* border: 1px solid rgb(255, 0, 0); */
+    display:grid;
+    color: grey;
+}
+#Dollar h2{
+    font-weight: 100;
+}
+.ProColumn h2 span, .BasicColumn h2 span{
+    color: black;
+    font-size: 30px;
+}
+.PackagesColumn button{
+    border: none;
+    background-color: #fff;
+    padding: 15px 25px;
+    font-size:15px;
+}
+.PackagesColumn button:hover{
+    color: white;
+    background-color: black;
+}
+.button2 button{
+    border: none;
+    background-color:  #f44336;  
+    padding: 15px 25px;
+}
+.button2 button:hover{
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+/* "Contact Content" */
+.Contact{
+    /* border: 1px solid green; */
+    /* padding: 10px; */
+    margin: 40px;
+    margin-bottom: 100px;
+}
+.ContactText h1{
+    color:#f44336;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.Contact hr{
+    background-color: red;
+    padding: 5px;
+    width: 65px;
+    border-radius: 5px;
+}
+/* "Input form" */
+.Contact input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.Inputs h1{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.SendButton{
+    border: none;
+    background-color:#f44336;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+}
+
+
+
+
+/* "Footer Content" */
+footer{
+    background-color: rgb(238, 238, 238);
+    color: black;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+}
+footer h1{
+    font-weight: 100;
+}
+footer a:hover{
+    background-color: none;
+}
+footer a{
+    color: black;
+} 
